@@ -1,0 +1,9 @@
+{
+    "pack": {
+       "pack_format": 12,
+       "description": [
+          {"text":"Made by ","color":"#CBC8A4"},
+          {"text":"Scuba Kay","color":"#AE9963","italic":true}
+       ]
+    }
+ }
