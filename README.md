@@ -2,6 +2,8 @@
 
 Deck is a resource pack with playing cards for Minecraft!
 
+This pack makes uses of [Custom Roleplay Data](https://www.curseforge.com/minecraft/customization/custom-roleplay-data-datapack)
+
 ## How to use:
 
 1. Make sure you enable the server resource pack in the server selection menu!
