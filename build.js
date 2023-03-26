@@ -18,4 +18,4 @@ zip.addLocalFile("./src/main/resources/pack.png");
 zip.addLocalFile("./src/main/resources/pack.mcmeta");
 zip.addLocalFolder("./src/main/resources/assets");
 
-zip.writeZip(`${dir}/deck-v${json.version}.zip`);
+zip.writeZip(`${dir}/deck-${json.version}.zip`);
