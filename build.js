@@ -16,6 +16,6 @@ var zip = new AdmZip();
 
 zip.addLocalFile("./src/main/resources/pack.png");
 zip.addLocalFile("./src/main/resources/pack.mcmeta");
-zip.addLocalFolder("./src/main/resources/assets");
+zip.addLocalFolder("./src/main/resources/assets", './assets');
 
 zip.writeZip(`${dir}/deck-${json.version}.zip`);
