@@ -15,7 +15,7 @@ console.log(`Building Deck v${json.version}`);
 var zip = new AdmZip();
 
 zip.addLocalFile("./src/main/resources/pack.png");
-zip.addLocalFile("./src/main/resources/pack.mcmeta.png");
+zip.addLocalFile("./src/main/resources/pack.mcmeta");
 zip.addLocalFolder("./src/main/resources/assets");
 
 zip.writeZip(`${dir}/deck-v${json.version}.zip`);
