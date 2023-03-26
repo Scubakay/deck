@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "deck",
+  "version": "${version}",
+  "name": "Deck",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/deck/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.scubakay.deck.client.DeckClient"
+    ],
+    "main": [
+      "com.scubakay.deck.Deck"
+    ]
+  },
+  "mixins": [
+    "deck.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.18",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}
