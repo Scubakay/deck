@@ -1,4 +1,4 @@
-const zipper = require('zip-local');
+const AdmZip = require('adm-zip');
 const fs = require('fs-extra');
 
 const dir = './build';
@@ -12,4 +12,10 @@ const json = JSON.parse(packageRaw);
 
 console.log(`Building Deck v${json.version}`);
 
-zipper.sync.zip("./datapack").compress().save(`${dir}/deck-v${json.version}.zip`);
+var zip = new AdmZip();
+
+zip.addLocalFile("./src/main/resources/pack.png");
+zip.addLocalFile("./src/main/resources/pack.mcmeta");
+zip.addLocalFolder("./src/main/resources/assets", './assets');
+
+zip.writeZip(`${dir}/deck-${json.version}.zip`);

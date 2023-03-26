@@ -1,0 +1,33 @@
+{
+	"credit": "Made by Scubakay",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "deck:item/poker_chip_red"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 1, 1.5],
+			"scale": [0.21, 0.21, 0.21]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 1, 1.5],
+			"scale": [0.21, 0.21, 0.21]
+		},
+		"firstperson_righthand": {
+			"rotation": [-10, -25, 0],
+			"scale": [0.24, 0.24, 0.24]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-10, -25, 0],
+			"scale": [0.24, 0.24, 0.24]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 0, 0],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"fixed": {
+			"scale": [0.66, 0.66, 0.66]
+		}
+	}
+}

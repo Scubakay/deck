@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/iron_nugget"
+  },
+  "overrides": [
+    { "predicate":  { "custom_model_data":  2 }, "model":  "deck:item/poker_chip_white" },
+    { "predicate":  { "custom_model_data":  3 }, "model":  "deck:item/poker_chip_red" },
+    { "predicate":  { "custom_model_data":  4 }, "model":  "deck:item/poker_chip_blue" },
+    { "predicate":  { "custom_model_data":  5 }, "model":  "deck:item/poker_chip_green" },
+    { "predicate":  { "custom_model_data":  6 }, "model":  "deck:item/poker_chip_black" }
+  ]
+}
